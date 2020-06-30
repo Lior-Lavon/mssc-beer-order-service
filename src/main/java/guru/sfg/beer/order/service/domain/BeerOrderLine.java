@@ -20,9 +20,10 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.Type;
 
-import javax.persistence.Entity;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import java.sql.Timestamp;
 import java.util.UUID;
 
@@ -47,9 +48,13 @@ public class BeerOrderLine extends BaseEntity {
         this.quantityAllocated = quantityAllocated;
     }
 
-    @ManyToOne
+    @JoinColumn(name = "beerOrder", referencedColumnName = "id")
+    @ManyToOne(cascade = CascadeType.PERSIST)
     private BeerOrder beerOrder;
 
+    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
+    @Type(type = "org.hibernate.type.UUIDCharType")
+    @Column(length = 36, columnDefinition = "varchar(36)")
     private UUID beerId;
     private String upc;
     private Integer orderQuantity = 0;

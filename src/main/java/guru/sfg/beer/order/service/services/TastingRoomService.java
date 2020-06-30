@@ -16,8 +16,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.UUID;
 
-@Service
 @Slf4j
+@Service
 public class TastingRoomService {
 
     private final CustomerRepository customerRepository;

@@ -12,7 +12,7 @@ import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@Disabled
+//@Disabled
 @SpringBootTest
 class BeerServiceRestTemplateImplTest {
 
@@ -25,7 +25,7 @@ class BeerServiceRestTemplateImplTest {
     @Test
     void getOnhandBeerData() {
 
-        String upc = "0083783375213";
+        String upc = "00732834762897";
         BeerDto beerDto = beerService.getBeerByUpc(upc).get();
 
         System.out.println(beerDto.toString());
