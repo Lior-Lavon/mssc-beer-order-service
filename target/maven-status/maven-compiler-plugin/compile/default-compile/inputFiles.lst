@@ -1,3 +1,4 @@
+/Users/liorlavon/Documents/Java/mssc-workspace/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/listener/BeerListener.java
 /Users/liorlavon/Documents/Java/mssc-workspace/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/services/Beer/BeerServiceRestTemplateImpl.java
 /Users/liorlavon/Documents/Java/mssc-workspace/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/repositories/CustomerRepository.java
 /Users/liorlavon/Documents/Java/mssc-workspace/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/domain/BeerOrder.java
@@ -14,6 +15,7 @@
 /Users/liorlavon/Documents/Java/mssc-workspace/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/config/TaskConfig.java
 /Users/liorlavon/Documents/Java/mssc-workspace/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/model/OrderStatusEnum.java
 /Users/liorlavon/Documents/Java/mssc-workspace/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/services/TastingRoomService.java
+/Users/liorlavon/Documents/Java/mssc-workspace/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/config/JmsConfig.java
 /Users/liorlavon/Documents/Java/mssc-workspace/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/domain/BeerOrderLine.java
 /Users/liorlavon/Documents/Java/mssc-workspace/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/model/OrderStatusUpdate.java
 /Users/liorlavon/Documents/Java/mssc-workspace/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/mappers/DateMapper.java

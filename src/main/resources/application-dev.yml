@@ -5,6 +5,8 @@ spring:
     username: beer_order_user
     password: password
     platform: mysql
+    hikari:
+      maximum-pool-size: 5
   jpa:
     hibernate:
       ddl-auto: create-drop

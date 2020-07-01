@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: guru.sfg.beer.order.service.services.Beer.BeerServiceRestTemplateImplTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.944 s <<< FAILURE! - in guru.sfg.beer.order.service.services.Beer.BeerServiceRestTemplateImplTest
+getOnhandBeerData  Time elapsed: 0.028 s  <<< ERROR!
+java.lang.NullPointerException
+	at guru.sfg.beer.order.service.services.Beer.BeerServiceRestTemplateImplTest.getOnhandBeerData(BeerServiceRestTemplateImplTest.java:29)
+
